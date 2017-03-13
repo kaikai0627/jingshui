@@ -1,0 +1,88 @@
+#footer .main{
+	width:1439px;
+	height:500px;
+	position:relative;
+	overflow:hidden;
+	margin: 0 auto;
+}
+#footer .con{
+	/*position: absolute;*/
+	width:50%;
+	height:200px;
+	margin-top:200px ;
+	float: right;
+	background: rgba(255,255,255,.6);
+	border:1px solid #aaa;
+	border-radius:4px;
+}
+#footer .con h3{
+	position: absolute;
+	top:150px;
+	left:55%;
+	color:#fff;
+	z-index:200;
+}
+#footer #ad{
+	position:absolute;
+	z-index:100;
+}
+#footer .bg-video{
+	position:absolute;
+	left:0;
+	top:0;
+	/*z-index:-1;*/
+}
+#footer .form-group{
+	text-align: left;
+}
+#footer .form-group:not(:last-child){
+	margin-bottom:15px;
+}
+#footer .control-label{
+	display:inline-block;
+	width:70px;
+	height:18px;
+	margin-top:3px;
+	text-align: right;
+	float: left;
+	vertical-align:middle;
+	color:#fff;
+}
+#footer .form-control{
+	padding:4px;
+	border:1px solid #aaa;
+	border-radius: 2px;
+	width:200px;
+	vertical-align: middle;
+	background: #CFCFCF;
+}
+#footer .success{
+	padding:4px;
+	border:1px solid #aaa;
+	border-radius: 2px;
+	width:80px;
+	vertical-align: middle;
+	background:#00486C;
+	color:#fff;
+}
+
+#footer .footer{
+	position: absolute;
+	top:100px;
+	left:150px;
+	z-index:200;
+	color:#F86934;
+}
+#footer .footer li{
+	margin-bottom:10px;
+	font-size:15px;
+	
+}
+#footer .footer h1{
+	text-align: left;
+}
+#footer .footer #s{
+	position: absolute;
+	top: 0;
+	z-index:300;
+}
